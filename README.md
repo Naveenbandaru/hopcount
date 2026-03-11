@@ -1,9 +1,6 @@
 # hopcount
 Latency Aware Data Partitioning Techniques for Distributed Systems
 
-# cpu_usage
-**Lightweight Runtime Conflict Detection for CPU Efficient Transaction Processing**
-
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
 - **Published In:** International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
