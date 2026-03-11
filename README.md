@@ -35,7 +35,7 @@ The design can benefit distributed databases, cloud storage infrastructures, ana
 
 ### Experimental Results (Summary)
 
-  | Nodes | Static Hops | Latency aware Hops | Improvment (%) |
+  | Nodes | Static Hops | Latency aware Hops | Improvement (%) |
   |-------|-------------| -------------------| ---------------|
   | 3     |  2.8        | 1.5                | 46.43          |
   | 5     |  3.4        | 1.7                | 50.00          |
