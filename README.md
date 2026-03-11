@@ -35,23 +35,23 @@ The design can benefit distributed databases, cloud storage infrastructures, ana
 
 ### Experimental Results (Summary)
 
-  | Nodes | Lock Based 2PL CPU %| Lightweight Runtime Detection %| Improvment (%) |
-  |-------|---------------------| -------------------------------| ---------------|
-  | 3     |  88                 | 55                             | 37.50          |
-  | 5     |  84                 | 49                             | 41.67          |
-  | 7     |  82                 | 46                             | 43.90          |
-  | 9     |  80                 | 43                             | 46.25          |
-  | 11    |  79                 | 41                             | 48.10          |
+  | Nodes | Static Hops | Latency aware Hops | Improvment (%) |
+  |-------|-------------| -------------------| ---------------|
+  | 3     |  2.8        | 1.5                | 46.43          |
+  | 5     |  3.4        | 1.7                | 50.00          |
+  | 7     |  4.0        | 1.9                | 52.50          |
+  | 9     |  4.6        | 2.1                | 54.35          |
+  | 11    |  5.1        | 2.3                | 54.90          |
 
 ### Citation
-Lightweight Runtime Conflict Detection for CPU Efficient Transaction Processing
+Latency Aware Data Partitioning Techniques for Distributed Systems.
 * Naveen Kumar Bandaru
-* International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
-* ISSN 2147-6799
+* International Journal of Innovative Research and Creative Technology (IJIRCT) 
+* E-ISSN 2454-5988
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijisae.org/index.php/IJISAE \
+https://www.ijirct.org/ \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
 
