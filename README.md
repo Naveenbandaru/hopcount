@@ -4,7 +4,7 @@ Latency Aware Data Partitioning Techniques for Distributed Systems
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
 - **Published In:** International Journal of Innovative Research and Creative Technology (IJIRCT)
-- **Publication Date:** Feb, 2024
+- **Publication Date:** Jan, 2024
 - **E-ISSN:**  2454-5988
 
 ### Abstract
