@@ -8,7 +8,7 @@ Latency Aware Data Partitioning Techniques for Distributed Systems
 - **ISSN:**  2147-6799
 
 ### Abstract
-High concurrency transaction processing systems often experience performance degradation due to conflicts among simultaneous read and write operations. Conventional mechanisms such as Two Phase Locking and Optimistic Concurrency Control introduce blocking, repeated retries, and significant processor overhead. This work examines the impact of these mechanisms on CPU utilization and scalability in distributed environments. A lightweight runtime conflict detection approach is introduced to identify conflicts earlier during execution and reduce unnecessary computation. Experimental evaluation across multiple cluster sizes demonstrates improved processor efficiency and better scalability in transaction processing systems.
+Data partitioning significantly influences communication efficiency in distributed systems by determining how requests access data across multiple nodes. Conventional static partitioning methods often ignore access locality, causing requests to traverse several intermediate nodes and increasing hop count. This study examines the impact of partition placement on communication distance and overall system efficiency. A latency aware partitioning approach is presented to route requests to nearby storage nodes and reduce unnecessary network traversal. Experimental analysis across different cluster sizes shows that the proposed approach significantly lowers hop count and improves scalability in distributed environments.
 
 ### Major Research Contributions
 - **Lightweight Runtime Conflict Detection Mechanism:**  
