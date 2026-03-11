@@ -3,37 +3,35 @@ Latency Aware Data Partitioning Techniques for Distributed Systems
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
-- **Published In:** International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
+- **Published In:** International Journal of Innovative Research and Creative Technology (IJIRCT)
 - **Publication Date:** June, 2023
-- **ISSN:**  2147-6799
+- **E-ISSN:**  2454-5988
 
 ### Abstract
 Data partitioning significantly influences communication efficiency in distributed systems by determining how requests access data across multiple nodes. Conventional static partitioning methods often ignore access locality, causing requests to traverse several intermediate nodes and increasing hop count. This study examines the impact of partition placement on communication distance and overall system efficiency. A latency aware partitioning approach is presented to route requests to nearby storage nodes and reduce unnecessary network traversal. Experimental analysis across different cluster sizes shows that the proposed approach significantly lowers hop count and improves scalability in distributed environments.
 
-### Major Research Contributions
-- **Lightweight Runtime Conflict Detection Mechanism:**  
-Introduced a runtime method that detects transactional conflicts early during execution using compact metadata instead of relying on heavy locking or late validation.
+### Core Technical Contributions
+- **Latency Conscious Partition Placement Approach:**  
+Presented a partition placement method that incorporates communication locality and routing distance to minimize hop count during distributed data access operations.
+- **Locality Based Intelligent Request Routing:**  
+Developed a routing mechanism that dynamically directs requests toward the closest storage node by analyzing runtime communication paths and locality patterns.
+- **Layered Distributed System Simulation Framework:** 
+Constructed a distributed system prototype using Go based concurrent processing to simulate realistic request flows across multiple nodes and evaluate communication behavior.
+- **Cluster Scale Communication Analysis:**  
+Performed experiments on clusters consisting of 3, 5, 7, 9, and 11 nodes to study how hop distance and communication efficiency evolve as distributed environments expand.
 
-- **Processor Efficient Transaction Execution:**  
-Designed a conflict management approach that reduces blocking synchronization and repeated transaction retries, leading to lower processor utilization during high concurrency workloads.
-- **Distributed Experimental Evaluation:** 
-Implemented a transaction processing model using Go based concurrent workers to simulate distributed workloads and evaluate processor utilization across cluster sizes.
+### System Level Relevance and Benefits
+- **Lower Network Traversal Distance:**
+The latency aware placement strategy significantly decreases the number of intermediate nodes a request must traverse compared with static partition placement.
 
-- **Scalability Analysis Across Cluster Sizes:**  
-Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze how CPU utilization changes as transaction processing systems scale.
+- **Enhanced Communication Performance:**  
+Shorter routing paths reduce network delay and minimize processing overhead introduced by intermediate nodes in distributed clusters.
 
-### Practical Significance and Impact
-- **Reduced Processor Utilization:**
-The lightweight runtime approach significantly lowers CPU usage compared with conventional locking and optimistic concurrency control mechanisms.
+- **Improved Scalability for Large Systems:**  
+The proposed approach maintains controlled hop growth even as cluster size increases, supporting stable performance in large scale distributed deployments.
 
-- **Improved Transaction Processing Efficiency:**  
-Early conflict detection minimizes wasted computation caused by blocking synchronization and repeated transaction retries.
-
-- **Better Scalability for Distributed Systems:**  
-Processor consumption decreases steadily as cluster size increases, demonstrating efficient resource utilization and improved scalability.
-
-- **Suitability for High Concurrency Platforms:**  
-The framework supports efficient transaction processing in environments such as distributed databases, cloud systems, and microservice based platforms.
+- **Applicability to Modern Distributed Platforms:**  
+The design can benefit distributed databases, cloud storage infrastructures, analytics systems, and microservice architectures that rely on efficient cross node data access.
 
 ### Experimental Results (Summary)
 
